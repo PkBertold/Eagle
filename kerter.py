@@ -1,10 +1,15 @@
 #Elkezdhetünk ebbe dolgozni
 <<<<<<< HEAD
 def teglalapKerulet():
-	a=float(input("Kérem a téglalap egyik oldalát:"))
-	b=float(input("Kérem a téglalap másik oldalát:"))
+	a=float(input("Kérem a téglalap egyik oldalát(kerület):"))
+	b=float(input("Kérem a téglalap másik oldalát(kerület):"))
 	return float(2*(a+b))
-=======
+def teglalapTerulet():
+	a=float(input("Kérem a téglalap egyik oldalát(terület):"))
+	b=float(input("Kérem a téglalap másik oldalát(terület):"))
+	return float(a*b)
+print (teglalapKerulet())
+print (teglalapTerulet())
 def triangle(a,b,c):
     print("perimeter: ",a+b+c)
 triangle(3,4,5)
